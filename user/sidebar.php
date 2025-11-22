@@ -17,6 +17,26 @@
       margin: 0;
       font-family: Arial, sans-serif;
     }
+    .container form{
+      width: 100%;
+      border: 1px solid rgb(82, 74, 235);
+      border-radius: 4px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .container form input{
+      border: none;
+      outline: none;
+      box-shadow: none;
+      width: 100%;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 7px 10px;
+    }
+    .container form i{
+      padding-left: 10px;
+    }
 
     .sidebar {
       background-color: var(--divider);

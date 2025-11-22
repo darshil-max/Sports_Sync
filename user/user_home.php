@@ -1,7 +1,11 @@
 <?php
 echo  '<div class="container">
     <h2>Elite Grounds</h2>
-
+     
+    <form>
+    <i class="bi bi-search"></i>
+    <input type="text" name="" id="search-item" placeholder="Search Here">
+    </form>
     <div class="row my-4 justify-content-center">
       <div class="col-md-3">
         <select id="locationFilter" class="form-select">
