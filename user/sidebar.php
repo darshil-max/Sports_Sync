@@ -17,27 +17,35 @@
       margin: 0;
       font-family: Arial, sans-serif;
     }
-    .container form{
-      width: 100%;
-      border: 1px solid rgb(82, 74, 235);
-      border-radius: 4px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    .container form input{
-      border: none;
-      outline: none;
-      box-shadow: none;
-      width: 100%;
-      font-size: 16px;
-      font-weight: 400;
-      padding: 7px 10px;
-    }
-    .container form i{
-      padding-left: 10px;
+    .search-bar .input-group-text {
+      background: transparent;   
+      border: 1px solid #444;
+      color: #fff;
+      border-radius: 10px;
     }
 
+    .search-bar .form-control {
+      background: transparent;
+      color: #fff;
+      caret-color: #fff;
+      border: 1px solid #444;
+    }
+
+    .mic-btn {
+      cursor: pointer;
+      padding-right: 14px;  /* extra space on right */
+    }
+
+    .search-bar .form-control::placeholder {
+    color: #aaa;
+    }
+
+    .search-bar .form-control:focus {
+    outline: none !important;  /* this to revome the border of search bar */
+    box-shadow: none !important;
+    border-color: #444 !important;
+    }
+    
     .sidebar {
       background-color: var(--divider);
       height: 100%;
