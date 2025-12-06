@@ -33,7 +33,7 @@
 
     .mic-btn {
       cursor: pointer;
-      padding-right: 14px;  /* extra space on right */
+      padding-right: 15px;  /* extra space on right */
     }
 
     .search-bar .form-control::placeholder {
